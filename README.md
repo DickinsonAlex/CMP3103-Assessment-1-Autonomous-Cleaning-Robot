@@ -1,5 +1,9 @@
 # 🤖 Autonomous Cleaning Robot – "TidyBot" Project
 
+<!-- tags:start -->
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![ROS 2](https://img.shields.io/badge/ROS%202-22314E?logo=ros&logoColor=white) ![Robotics](https://img.shields.io/badge/Robotics-2F6F8F) ![Autonomous Navigation](https://img.shields.io/badge/Autonomous%20Navigation-2F6F8F) ![University of Lincoln: CMP3103 Autonomous Mobile Robotics](https://img.shields.io/badge/University%20of%20Lincoln-CMP3103%20Autonomous%20Mobile%20Robotics-8A1538)
+<!-- tags:end -->
+
 This project contains scripts to autonomously control a cleaning robot named TidyBot, built using Python and ROS 2. TidyBot operates in a simulated environment, where it detects, sorts, and organizes colored cubes by matching them to color-coded markers and pushing them into position using camera and LiDAR data.
 
 ✅ Core Features:
