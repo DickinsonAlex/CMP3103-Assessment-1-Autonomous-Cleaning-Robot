@@ -2,6 +2,10 @@
     "name": "L-CAS Humble CUDA-OpenGL Teaching Devcontainer",
     "image": "lcas.lincoln.ac.uk/devcontainer/ros2-teaching:4",
 
+    // Fixed container path: the local folder name has spaces, which ROS 2 / colcon builds dislike
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/autonomous-cleaning-robot,type=bind",
+    "workspaceFolder": "/workspaces/autonomous-cleaning-robot",
+
     "forwardPorts": [5801],
     "portsAttributes": {
         "5801": {
